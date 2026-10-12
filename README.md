@@ -2,6 +2,8 @@
 
 readme-quality-score grades a README's structural completeness on a 0–100 weighted checklist — title, description, install, usage, examples, configuration, limits, license, contributing, changelog, FAQ, contact — and lists concrete suggestions for every missing section. Use it as a docs CI gate: it is read-only, offline, and stdlib-only. Confidence: High (≥80%) for section detection behavior, per the 56-check suite.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 READMEs decay by omission, not by error: nobody deleted the install section, it just never got written, and nothing fails when it is missing. Human review is inconsistent, and heavyweight AI analyzers make docs quality a paid API call. Teams need a cheap, deterministic gate that flags *structural* gaps — the sections every README needs — before a repo goes public.
